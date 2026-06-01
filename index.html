@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <title>Meraki Midwives</title>
+
+  <!-- Home screen icon (replace meraki-icon.png with your logo file) -->
+  <link rel="apple-touch-icon" href="meraki-icon.png" />
+  <link rel="icon" type="image/png" href="meraki-icon.png" />
+
+  <!-- iOS full-screen app behavior -->
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="apple-mobile-web-app-title" content="Meraki Midwives" />
+
+  <!-- Android full-screen app behavior -->
+  <meta name="mobile-web-app-capable" content="yes" />
+
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html, body { width: 100%; height: 100%; overflow: hidden; background: #2C5F4A; }
+    iframe {
+      position: fixed;
+      top: 0; left: 0;
+      width: 100%; height: 100%;
+      border: none;
+    }
+  </style>
+</head>
+<body>
+  <iframe
+    src="https://meraki-pregnancy-portal-9351.taskade.app"
+    allowfullscreen
+    allow="microphone; camera; clipboard-read; clipboard-write"
+    title="Meraki Midwives Pregnancy Portal"
+  ></iframe>
+</body>
+</html>
